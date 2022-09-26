@@ -1,0 +1,535 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+%
+% If you have never used LaTeX before, talk you your advisor about
+% how to compile this into a PDF.
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{hyperref}
+		\usepackage{amssymb}
+\usepackage[hmargin=1.5cm,vmargin=1.5cm]{geometry}
+\usepackage{geometry}
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{multicol}
+% Set your name here
+\def\name{Manuel Pichardo Marcano}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {CV, physics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=.5in,
+  top=.5in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+
+
+% Make lists without bullets
+ \usepackage{enumitem}
+\usepackage{bbding}
+\usepackage{tikz}
+\usepackage{pifont} 
+%\renewenvironment{itemize}{
+  %\begin{list}{}{
+    %\setlength{\leftmargin}{1.5em}
+  %}
+%}{
+  %\end{list}
+%}
+
+\begin{document}
+
+% Place name at left
+\begin{huge}
+\name
+\end{huge}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+%\vspace{0.25in}
+
+%\section*{Contact Information} \hrule
+
+
+\vspace{.3 cm}
+
+\begin{minipage}{0.6\linewidth}
+  \href{www.manuelpm.me}{manuelpm.me} \\
+%Texas Tech University \\
+%  Department of Physics and Astronomy \\
+%  Lubbock, TX 79409\\\end{comment}
+%Phone: +1 809 757 7796 \\
+Email:  \href{mailto:manuel.pichardo-marcano@ttu.edu}{manuel.pichardo-marcano@ttu.edu}\\
+ %Email: \href{mailto:manuelpichardom@gmail.com}{ manuelpichardom@gmail.com}\\
+ Pronouns: he/him/his 
+\end{minipage}
+%\begin{minipage}{0.45\linewidth}
+  %\begin{tabular}{ll}
+    %Phone: & (757) 555-5555 \\
+    %Fax: &  (757) 221-3540 \\
+    %Email: & \href{mailto:me@email.wm.edu}{\tt me@email.wm.edu} \\
+  %\end{tabular}
+%\end{minipage}
+
+\section*{Education}
+
+\hrule
+\vspace{.3 cm}
+
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+  \item \emph{Master of Science in Physics}  \\
+   Texas Tech University, 2016-2018
+
+
+
+  \item \emph{Joint European Master Degree in Space Science \& Technology} 
+  \begin{itemize}[label=\ding{27}]
+      \vspace{-.05cm}
+      \item Project topic: MUSE observations of the compact objects NGC 6397 \\
+      M.S., Space and Science Technology, Lule\r a tekniska universitet  (2014 - 2016) \\
+      M.S., Astrophysics, Universit\'e Paul Sabatier Toulouse III, Mention Assez Bien (2014 - 2016) 
+  \end{itemize}
+
+
+
+
+  \item \emph{Bachelor of Science, Physics}  \\
+   Utah State University, Cum Laude (2014)
+
+ % \item Ph.D. Physics, College of William and Mary, expected 2010.
+\end{itemize}
+
+%\clearpage
+
+\subsection*{Research Experience}
+
+%\hrule
+%\vspace{.3 cm}
+
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+        \item Spring 2016: \emph{Research Project}, Research Institute in Astrophysics and Planetology (IRAP).\\
+                MUSE observations of the compact objects NGC 6397. \url{https://github.com/manuelmarcano22/MasterThesis} 
+                
+\end{itemize}
+                
+                %Working with Dr. Natalie Webb in a project studying the spectral signatures of compact objects in two globular clusters (NGC 6397 and Omega Centauri) with data taken by the Multi Unit Spectroscopic Explorer (MUSE) instrument of the Very Large Telescope. The goal is to determine the atmosphere of the neutron stars and study different populations of cataclysmic variables to better understand the evolution and formation of binaries in globular clusters. 
+
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+\item Summer 2015: \emph{Summer Project,  Institute for Gravitational Research,} University of Glasgow.\\
+\url{https://github.com/manuelmarcano22/aLIGO-wxPython}
+\end{itemize}
+
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+  \item 2013-2014: \emph{Undergraduate Researcher, Utah State University,} Astrophysics Group.  \\
+  \url{http://arxiv.org/abs/1311.3153}
+  \end{itemize}
+
+\begin{itemize}[label=$\blacktriangleright$]
+  \item Summer 2013: \emph{Undergraduate Researcher, National Center for Atmospheric Research} \\
+\url{http://manuelpm.me/papers/posterhao.pdf}
+  \end{itemize}
+
+\begin{itemize}[label=$\blacktriangleright$]
+  \item Summer 2012: \emph{Undergraduate Researcher, Stanford University}, Geophysics Dep.\ \\
+\url{http://manuelpm.me/papers/posterinsar.pdf} 
+  \end{itemize}
+
+\section*{Publications \& Preprints}
+\hrule
+\vspace{.3 cm}
+\subsection*{Papers}
+\begin{itemize}[label=$\blacktriangleright$]
+
+\item  S.W. McIntosh, W.J. Cramer, \textbf{M. Pichardo Marcano}, R.J. Leamon, The detection of Rossby-like waves on the Sun, Nature Astron. 1, 0086 (2017). \href{http://dx.doi.org/10.1038/s41550-017-0086}{\tt doi:10.1038/s41550-017-0086} \\
+
+
+\item  \emph{Limiting alternative theories of gravity using gravitational wave observations} \\
+Jeffrey S. Hazboun, \textbf{Manuel Pichardo Marcano} and Shane L. Larson; preprint \href{http://arxiv.org/abs/1311.3153}{\tt arxiv/1311.3153} \\
+
+
+%submitted to Classical \& Quantum Gravity (2014); \href{http://arxiv.org/abs/1311.3153}{\tt arxiv/1311.3153}
+\end{itemize}
+
+\subsection*{Talks and Posters}
+
+\begin{itemize}[label=$\blacktriangleright$]
+\item \textit{\href{http://manuelpm.me/papers/MUSEposter.pdf}{"MUSE integral field unit observations of the compact objects in the globular cluster NGC 6397"}} \\Poster. Stellar Remnants at the Junction. Junction, TX. 2016
+
+
+%\item \textit{\href{http://manuelpm.me/papers/posterhao.pdf}{"Big Flare Hunting"}} \\Poster. Summer Program in Solar and Space Physics. Boulder, CO. 2013
+
+
+\item \textit{\href{http://manuelpm.me/papers/posterinsar.pdf}{"Measuring Water Level Fluctuations of Two Connected Wetlands in the Dominican Republic Using InSAR"}} \\Poster. SHPE National Conference. Dallas, TX. 2012
+
+\item \emph{"Measuring Water Level Fluctuations of Two Connected Wetlands in the Dominican Republic Using InSAR"}
+Talk. USU Physics Department Colloquium. 2012
+\end{itemize}
+
+\subsection*{Media Coverage}
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+\item \hyperref[https://phys.org/news/2017-03-planetary-earth-sun.html]{Planetary waves, first found on Earth, are discovered on Sun (phys.org)}
+
+\end{itemize}
+
+\section*{Observing Time Awarded }       
+
+\hrule
+\vspace{.3 cm}
+
+\subsection*{CoI}
+
+
+  \begin{itemize}[label=$\blacktriangleright$]
+        \item \emph{Multi Unit Spectroscopic Explorer - MUSE}:  The Hydrogen Alpha Disk Emission from the Compact Binaries of the Globular Cluster NGC 6397 (1.5 h).
+  \end{itemize}
+
+
+\section*{Teaching Experience}
+
+\hrule
+\vspace{.3 cm}
+
+
+\hangindent=0.4cm  
+ \hspace{.3 cm}  $\blacktriangleright$ Graduate Part-Time Instructor PHYS 1403/1404: Algebra-based, Inquiry-based, Laboratory-based Introductory Physics Curriculum. TTU, 2017-Present.  
+ 
+  \hspace{.2 cm}    $\blacktriangleright$  Teaching Assistant.  PHYS 1401/2401: Principles of Physics I/II. Lead the laboratories and discussions for the calculus based introductory physics. TTU, 2016-2017.
+  
+
+  \hspace{.2 cm}    $\blacktriangleright$ Undergraduate Teaching Fellow  PHYS 2215: Physics for Scientists and Engineers Lab I -  Utah State, Fall 2013.
+  
+  
+  \begin{comment}
+  
+\begin{itemize}[label=$\blacktriangleright$]
+
+	\item \emph{Graduate Part-Time Instructor} PHYS 1403/1404: Algebra-based, Inquiry-based, Laboratory-based Introductory Physics Curriculum. TTU, 2017-Present.  
+	
+	
+
+	
+\item \emph{Teaching Assistant.}  PHYS 1401/2401: Principles of Physics I/II. Lead the laboratories and discussions for the calculus based introductory physics. TTU, 2016-2017.  
+  	  
+
+  \item \emph{Undergraduate Teaching Fellow.}  PHYS 2215: Physics for Scientists and Engineers Lab I -  Utah State, Fall 2013.
+  \end{itemize}
+
+% \section*{Computer \& Language Skills}      
+% \emph{Languages}: Spanish (Native), English (Fluent), French (Intermediate)  \\
+% \emph{Computer Languages}: Fortran, \LaTeX\\
+% \emph{Software:}: Mathematica, MathCAD, Matlab
+
+\end{comment}
+
+
+
+\section*{Recognitions \& Leadership Experiences }       
+
+\hrule
+\vspace{.3 cm}
+
+
+
+
+\hangindent=0.4cm  
+ \hspace{.3 cm}  $\blacktriangleright$  Erasmus Mundus Scholarship: 2-year scholarship awarded by the European Commission  \\    
+ \hspace{.2 cm}    $\blacktriangleright$  Presidential Scholarship: Full 4-year scholarship awarded by the Dominican Government \\    
+\hspace{.2 cm}   $\blacktriangleright$  Member: \emph{Sigma Pi Sigma}, The Physics Honor Society  \\   
+%\hspace{.2 cm}   $\blacktriangleright$  Vice-President: \emph{Society of Hispanic Professional Engineers.} 2011-2012\\
+%\hspace{.2 cm}   $\blacktriangleright$  Outreach Coordinator: \emph{Society of Hispanic Professional Engineers.} 2012-2013 \\  
+\hspace{.2 cm}   $\blacktriangleright$   Lawrence  R. and Abeline Megill Scholarship: \emph{USU Physics Department}   % Need to check this     
+
+
+
+%\section*{Computer Programming}
+\section*{Technical Skills}
+\hrule
+\vspace{.3 cm}
+    \begin{multicols}{2}
+
+
+%\begin{itemize}[label=$\blacktriangleright$]
+	%\item GitHub projects and contributions: %\href{https://github.com/manuelmarcano22}{https://github.com/manuelmarcano22}.
+  %\end{itemize}
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+	\item \emph{Programming Languages}: Proficient in Python (Jupyter/iPython notebooks) and shell scripting (bash). 
+\end{itemize}
+
+  \begin{itemize}[label=$\blacktriangleright$]
+        \item \emph{Markup Languages}: \LaTeX, Markdown
+  \end{itemize}
+
+  \begin{itemize}[label=$\blacktriangleright$]
+  \item \emph{Operating Systems}: GNU/Linux, OS X, Windows
+    \end{itemize}
+
+  \begin{itemize}[label=$\blacktriangleright$]
+          \item \emph{Software}: IRAF/PyRAF, SAOImageDS9/JS9
+    \end{itemize}
+
+  \begin{itemize}[label=$\blacktriangleright$]
+          \item \emph{Version Control Systems}: Git
+    \end{itemize}
+  
+    \begin{itemize}[label=$\blacktriangleright$]
+            \item \emph{Virtualization and Cloud Services}: Docker (learning)
+    \end{itemize}
+    
+ %   \begin{itemize}[label=$\blacktriangleright$]
+ %           \item \emph{Networking Tools/Services}: SSH (basic)
+%    \end{itemize}
+    
+        \end{multicols}
+
+%\hrule
+%\vspace{.3 cm}
+%\begin{itemize}[label=$\blacktriangleright$]
+%\item Extensive knowledge of \emph{Python}  and \emph{Mathematica} 
+%\item Complete familiarity with \LaTeX
+%\item Familiarity with Matlab and Fortran %, and basic knowledge of R
+%\end{itemize}
+
+\subsection*{Languages}
+
+%\hrule
+%\vspace{.3 cm}
+
+    \begin{multicols}{2}
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+\item \emph{Spanish}: Native Language
+\item \emph{English}: Fluent
+\item \emph{French}: Intermediate knowledge
+\end{itemize}
+
+\end{multicols}
+
+\section*{Outreach}
+\hrule
+\vspace{.3 cm}
+\begin{itemize}[label=$\blacktriangleright$]
+\item \emph{Author at \href{https://astrobitos.org/}{Astrobitos}}: URL: \url{https://astrobitos.org/author/manuelmarcano22/}
+\end{itemize}
+
+%\subsection*{Texas Tech}
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+%\item Solar Observation at TexPREP-Lubbock (http://www.math.ttu.edu/texprep/) 
+
+
+	\item \textit{\href{http://manuelpm.me/Astrodomtalk/}{"Dimensionality Reduction applied to Large Spectroscopic Surveys" (http://manuelpm.me/PCASDSS/)}} \\ Emmy Noether High School Mathematics Day, Lubbock, TX. 2018
+
+
+
+%\item Science Made Simple at the TTU museum. 
+
+%\item +10 Solar Observation and school visits to do science demos and judge science fair projects in Lubbock
+\end{itemize}
+
+
+%\subsection*{Dominican Society of Amateur Astronomers (Astrodom)}
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+	\item \textit{\href{http://manuelpm.me/Astrodomtalk/}{"Galactic Bulge Survey: Fuentes de Rayos X del Bulbo Galáctico"(http://manuelpm.me/AstrodomGBStalk/}} \\ Santo Domingo, Dominican Republic. 2018
+\end{itemize}
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+	\item \textit{\href{http://manuelpm.me/Astrodomtalk/}{"Estudio de la población de objetos compactos en el cúmulo globular NGC 6397 con la unidad de campo integral MUSE" (http://manuelpm.me/Astrodomtalk/)}} \\Santo Domingo, Dominican Republic. 2016
+\end{itemize}
+
+
+
+
+%\section*{Awards \& Grants}
+%\begin{itemize}
+  %\item Rolf Winter Physics Teaching Assistant Award, 2007, 2008, 2009, 2010. 
+  %\item VSGC Graduate Research Fellowship, 2009-2010.
+  %\item Token travel grant from W\&M's grad dean. 
+%\end{itemize}
+
+
+
+%\section*{Professional Service}
+%\begin{itemize}
+% \item \textbf{Graduate Representative}, Physics Graduate Studies Committee, W\&M, 2009-2010.
+% \item \textbf{President}, Physics Graduate Student Association, W\&M, 2002-2003.
+%\end{itemize}
+%
+%\section*{Professional Development}
+%\begin{itemize}
+% \item \textbf{Generic Physics Summer School}, Fermilab, Summer 2002.
+%\end{itemize}
+%
+
+
+
+\pagebreak
+\section*{References }  
+
+
+   \begin{tabbing}
+ \emph{Dr. Thomas Maccarone}\\
+Associate Professor\\
+Texas Tech University \\
+Department of Physics and Astronomy \\
+Lubbock TX 79409-1051 \\
+PHONE:  1-806-742-3760 \,\,\,\,\,\,\,\,\, eMAIL: 
+thomas.maccarone@ttu.edu
+\end{tabbing}
+
+
+
+
+   \begin{tabbing}
+ \emph{Dr. Natalie Webb}\\
+Researcher\\
+Institut de Recherche en Astrophysique et Planétologie \\
+9 Avenue de Colonel Roche \\
+31028 Toulouse Cedex 4, France\\ 
+PHONE:  (+33) 5 61 55 75 70  \,\,\,\,\,\,\,\,\, eMAIL: Natalie.Webb@irap.omp.eu
+\end{tabbing}
+
+
+\begin{tabbing}
+ \emph{Dr. Martin Hendry}\\
+Head of School\\
+Professor of Gravitational Astrophysics and Cosmology \\
+SUPA, School of Physics and Astronomy \\
+University of Glasgow  \\
+Glasgow, G12 9RW \\ 
+PHONE:  (+44) 141 330 5685   \,\,\,\,\,\,\,\,\, eMAIL: Martin.Hendry@glasgow.ac.uk
+\end{tabbing}
+
+
+   \begin{tabbing}
+ \emph{Dr. Shane Larson}\\
+Research Associate Professor \\
+Center for Interdisciplinary Exploration \\
+and Research in Astrophysics \\
+Northwestern University \\
+Evanston, IL 60208  \\ 
+PHONE:  (847) 467 4305   \,\,\,\,\,\,\,\,\, eMAIL: s.larson@northwestern.edu
+\end{tabbing}
+
+
+
+
+
+
+
+%\section{References }  
+%   \begin{tabbing}
+% \emph{Dr. Shane Larson}\\
+%Assistant Professor of Physics \\
+%Department of Physics \\
+%4415 Old Main Hill \\
+%Utah State University \\
+%Logan, UT 84322-4415  \\ 
+%PHONE:  435-797-8838  \,\,\,\,\,\,\,\,\, eMAIL: s.larson@usu.edu
+%\end{tabbing}
+
+  \begin{tabbing}
+ \emph{Dr. Scott W. McIntosh}\\
+National Center for Atmospheric Research\\
+High Altitude Observatory \\
+ 3080 Center Green Drive - CG1	 \\
+Boulder, CO 80301	  \\ 
+PHONE:  (303) 497 1544  \,\,\,\,\,\,\,\,\, eMAIL: mscott@ucar.edu
+\end{tabbing}
+
+
+
+  \begin{tabbing}
+ \emph{Dr. David Peak}\\
+ Professor of Physics \\
+Department of Physics \\
+4415 Old Main Hill \\
+Utah State University \\
+Logan, UT 84322-4415  \\ 
+PHONE:  (435) 797-2884  \,\,\,\,\,\,\,\,\, eMAIL: david.peak@usu.edu.
+\end{tabbing}
+
+
+
+
+
+
+%\bigskip
+% Footer
+%\begin{center}
+  %\begin{footnotesize}
+   % Last updated: \today \\
+%    \href{\footerlink}{\texttt{\footerlink}}
+%  \end{footnotesize}
+%\end{center}
+
+\end{document}
+
