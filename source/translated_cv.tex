@@ -1,0 +1,913 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+%
+% If you have never used LaTeX before, talk you your advisor about
+% how to compile this into a PDF.
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{hyperref}
+		\usepackage{amssymb}
+\usepackage[hmargin=1.5cm,vmargin=1.5cm]{geometry}
+\usepackage{geometry}
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage[utf8]{inputenc}
+\inputencoding{latin1}
+\usepackage{comment}
+\usepackage{multicol}
+% Set your name here
+\def\name{Manuel Pichardo Marcano}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {CV, physics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=.5in,
+  top=.6in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+
+
+% Make lists without bullets
+ \usepackage{enumitem}
+\usepackage{bbding}
+\usepackage{tikz}
+\usepackage{pifont} 
+%\renewenvironment{itemize}{
+  %\begin{list}{}{
+    %\setlength{\leftmargin}{1.5em}
+  %}
+%}{
+  %\end{list}
+%}
+
+\begin{document}
+
+% Place name at left
+\begin{huge}
+\name
+\end{huge}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+%\vspace{0.25in}
+
+%\section*{Contact Information} \hrule
+
+
+\vspace{.3 cm}
+
+
+
+\begin{minipage}{0.6\linewidth}
+  \href{www.manuelpm.me}{manuelpm.me} \\
+Fisk University \\
+  Departamento de Ciencias F\'isicas y de la Vida \\
+  Nashville, TN 37208\\
+%Phone: +1 809 757 7796 \\
+correo electr\'onico:  \href{mailto:mmarcano@fisk.edu}{mmarcano@fisk.edu}\\
+ %Email: \href{mailto:manuelpichardom@gmail.com}{ manuelpichardom@gmail.com}\\
+ %Pronouns: he/him/his 
+\end{minipage}
+%\begin{minipage}{0.45\linewidth}
+  %\begin{tabular}{ll}
+    %Phone: & (757) 555-5555 \\
+    %Fax: &  (757) 221-3540 \\
+    %Email: & \href{mailto:me@email.wm.edu}{\tt me@email.wm.edu} \\
+  %\end{tabular}
+%\end{minipage}
+
+
+
+\section*{Intereses de Investigaci\'on}
+
+\hrule
+\vspace{.3 cm}
+
+
+Objetos Compactos; Objetos Compactos en C\'umulos Globulares; Binarias Enanas Blancas; Variables Catacl\'ismicas; AM~CVns; Estrellas Variables, Sistemas Binarios, An\'slisis de Datos.
+
+\section*{Experiencia de Investigaci\'on Posdoctoral}
+
+\hrule
+\vspace{.3 cm}
+\begin{itemize}[label=$\blacktriangleright$]
+
+
+ \item \emph{Univesidad Fisk/Vanderbilt, Nashville, TN}\\
+ Becario Postdoctoral  \\
+ September 2023 - Presente
+
+
+
+ \item \emph{American Museum of Natural History, New York, NY}\\
+ Beca Postdoctoral Kalbfleisch   / Investigador Asociado \\
+  September 2022 - Presente\\
+ 
+
+ 
+
+\end{itemize}
+
+
+
+\section*{Educaci\'on}
+
+\hrule
+\vspace{.3 cm}
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+
+
+  \item \emph{PhD., F\'isica}  \\
+   Universidad Tecnol\'ogica de Texas (Texas Tech University) , 2018-2022
+      \begin{itemize}[label=\ding{27}]
+     Tesis: Variabilidad de la Acreci\'on de binarias de enanas blancas y otros objetos compactos  \\
+     Asesores: Profesor Thomas J. Maccarone y Professora Liliana E. Rivera Sandoval 
+      \end{itemize}
+
+
+
+
+
+  \item \emph{Maestr\'ia en F\'isica}  \\
+   Universidad Tecnol\'ogica de Texas (Texas Tech University), 2016-2018
+
+
+
+  \item \emph{M\'aster Europeo en Ciencias y Tecnolog\'ias Espaciales} 
+  \begin{itemize}[label=\ding{27}]
+      \vspace{-.05cm}
+      \item Tesis: Observaciones con MUSE de los objetos compactos en NGC 6397 \\
+      M.S., Ciencias y Tecnolog\'ias Espaciales, Lule\r a tekniska universitet  (2014 - 2016) \\
+      M.S., Astrof\'isica, Universit\'e Paul Sabatier Toulouse III, Mention Assez Bien (2014 - 2016) \\
+      Asesores: Dr. Natalie Webb and Dr. Sebastien Guillot
+  \end{itemize}
+
+
+
+
+  \item \emph{Licenciatura en F\'isica}  \\
+   Universidad Estatal de Utah (Utah State University), Cum Laude (2014)
+
+ % \item Ph.D. Physics, College of William and Mary, expected 2010.
+\end{itemize}
+
+
+
+
+
+%\clearpage
+
+
+\section*{Publicaciones}%\& Preprints}
+\hrule
+\vspace{.3 cm}
+\subsection*{Art\'iculos Cient\'ificos en Revistas indexadas }
+\begin{itemize}[label=$\blacktriangleright$]
+
+%\subsubsection*{Refereed}
+
+                \item \textbf{Pichardo Marcano, M.}, Rivera Sandoval, L. E., Maccarone, T. J., Rohrmann, R. D., Heinke, C. O., Belloni, D., Althaus, L. G., \& Bahramian, A. (2023). Una candidata enana blanca magn\'etica con n\'ucleo de helio en el c\'umulo globular NGC 6397 (A candidate magnetic helium-core white dwarf in the globular cluster NGC 6397), \href{https://ui.adsabs.harvard.edu/abs/2023MNRAS.521.5026P/abstract}{Monthly Notices of the Royal Astronomical Society, 521, 5026.}
+
+
+        %%l (%Y). %T,%J, %V, %p.\n
+
+
+
+        
+        \item \textbf{Pichardo Marcano, M.}, Rivera Sandoval, L. E., Maccarone, T. J., \& Scaringi, S. (2021). TACOS: Sondeo de Estallidos en las AM~CVn(TACOS: TESS AM CVn Outbursts Survey),Monthly Notices of the Royal Astronomical Society, 508, 3275.
+
+
+        
+                
+            \item \textbf{Pichardo Marcano, M.}, Rivera Sandoval, L. E., Maccarone, T. J., Zhao, Y., \& Heinke, C. O. (2021). \href{https://ui.adsabs.harvard.edu/abs/2021MNRAS.503L..51P/abstract}{Per\'iodo orbital de 2 d\'ias para un candidato a p\'ulsar de milisegundo de espalda roja en el c\'umulo globular NGC 6397(A 2-d orbital period for a redback millisecond pulsar candidate in the globular cluster NGC 6397), Monthly Notices of the Royal Astronomical Society, 503, L51.}
+        
+        
+        \item Schwope, A., Buckley, D. A. H., Kawka, A., König, O., Lutovinov, A., Maitra, C., Mereminskiy, I., Miller-Jones, J., \textbf{Pichardo Marcano, M.}, Rau, A., Semena, A., Townsend, L. J., \& Wilms, J. (2022). Identificaci\'on de SRGt 062340.2-265751 como una variable catacl\'ismica similar a una nova, brillante y fuertemente variable (Identification of SRGt 062340.2-265751 as a bright, strongly variable, novalike cataclysmic variable),Astronomy and Astrophysics, 661, A42
+        
+        
+
+        
+    \item Rivera Sandoval, L. E., Maccarone, T. J., \& \textbf{Pichardo Marcano, M.} (2020). Una superexplosi\'on de un a\~{n}o de duraci\'on de una binaria enana blanca ultracompacta revela la importancia de la irradiaci\'on de estrellas donantes (A Year-long Superoutburst from an Ultracompact White Dwarf Binary Reveals the Importance of Donor Star Irradiation), The Astrophysical Journal, 900, L37. \\
+
+    \item Zhao, Y., Heinke, C. O., Tudor, V., Bahramian, A., Miller-Jones, J. C. A., Sivakoff, G. R., Strader, J., Chomiuk, L., Shishkovsky, L., Maccarone, T. J., \textbf{Pichardo Marcano, M.}, \& Gelfand, J. D. (2020). El sondeo MAVERIC: un p\'ulsar oculto y un candidato a agujero negro en las im\'agenes de radio ATCA del c\'umulo globular NGC 6397,(The MAVERIC survey: a hidden pulsar and a black hole candidate in ATCA radio imaging of the globular cluster NGC 6397), Monthly Notices of the Royal Astronomical Society, 493, 6033. \href{10.1093/mnras/staa631} \\
+
+
+\item  S.W. McIntosh, W.J. Cramer, \textbf{M. Pichardo Marcano}, R.J. Leamon. \emph{La detecci\'on de ondas tipo Rossby en el Sol(The detection of Rossby-like waves on the Sun)}. Nature Astron. 1, 0086 (2017). \href{http://dx.doi.org/10.1038/s41550-017-0086}{\tt doi:10.1038/s41550-017-0086} \\
+
+%\subsubsection*{Non-refereed}
+
+%\item Maccarone, T. J., Beardmore, A., Mukai, K., Page, K., \textbf{Pichardo Marcano, M.}, \& Rivera Sandoval, L. (2021). X-ray Pulsations from Nova Her 2021,The Astronomer's Telegram, 14776, 1.
+
+
+
+%\item \textbf{Pichardo Marcano, M.} (2020). A period of 3.9 hours in the TESS light curve of SRGt 062340.2-265715,The Astronomer's Telegram, 14222, 1.
+
+%\item  Jeffrey S. Hazboun, \textbf{Manuel Pichardo Marcano} and Shane L. Larson. \emph{Limiting alternative theories of gravity using gravitational wave observations} \\
+ preprint \url{http://arxiv.org/abs/1311.3153} \\
+
+
+%submitted to Classical \& Quantum Gravity (2014); \href{http://arxiv.org/abs/1311.3153}{\tt arxiv/1311.3153}
+\end{itemize}
+
+\subsection*{Charlas y P\'osters Acad\'emicos}
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+\item \textit{Variabilidad de las binarias de enanas blancas acretantes} \\ Charla. V Congreso Internacional de la Sociedad Dominicana de F\'isica. 2024.
+
+
+\item \textit{Sondeo MARES: Remanentes magn\'eticos en simbi\'oticas} \\ P\'oster. XVII Reuni\'on Regional Latinoamericana de la UAI . 2023.
+
+\item \textit{ Sondeo SCOVaS: Estudio de objetos compactos y estrellas variables}  \\ Charla. Two in a Million - The interplay of binaries and star clusters. 2023
+
+
+\item \textit{ Sondeo SCOVaS: Estudio de objetos compactos y estrellas variables}  \\ Charla. The Transient and Variable Universe. 2023
+
+
+\item \textit{ Variabilidad de binarias de enanas blancas y otros objetos compactos.} \\ Ponente invitado. Carnegie Observatories. 2023
+
+\item \textit{Una candidate a enana blanca magn\'etica con n\'ucleo de helio en el c\'umulo globular NGC 6397} \\ Charla. 241 Reuni\'on de la Sociedad Astron\'omica Estadounidense. 2023.
+
+\item \emph{Una b\'usqueda de estrellas variables y binarias compactas en c\'umulos globulares con el telescopio espacial Hubble.} \\ Ponente invitado. Seminario del Departamento de F\'isica de la Universidad Trinity. San Antonio, TX. 2022
+
+\item \textit{TACOS: Sondeo de Estallidos en las AM~CVn} \\ Charla. AM~CVn 4.5 Meeting. September 2022.
+
+\item \textit{Variabilidad de binarias de enanas blancas y otros objetos compactos.} \\ Charla de Tesis Doctoral. 240 Reuni\'on de la Sociedad Astron\'omica Estadounidense. 2022.
+
+
+\item \emph{Una b\'usqueda de estrellas variables y binarias compactas en c\'umulos globulares con el telescopio espacial Hubble.} \\Ponente invitado. Seminario del Departamento de F\'isica de La Universidad de Texas Valle del R\'io Grande. 2022
+
+
+\item \textit{Resultados del sondeo TACOS de Estallidos de las AM CVn} \\ Charla. TESS Science Team Meeting $\#26$. 2021.
+
+
+\item \textit{Astronom\'ia en Ultravioleta.} \\
+Ponente Invitado. Escuela de Verano de Alpha-Cen. 2021.
+
+\item \textit{Una b\'usqueda de estrellas variables y binarias compactas en c\'umulos globulares con el telescopio espacial Hubble.}\\ Charla. Reuni\'on Anual y Asamblea General de Alpha-Cen. 2020
+
+
+\item \textit{Sondeo SCOVaS: Estudio de objetos compactos y estrellas variables}\\ P\'oster. 36th Annual New Mexico Symposium. 2020
+
+\item \textit{\href{https://manuelpm.me/TexasAPS2019/}{"Binarias compactas en el c\'umulo globular NGC~6397"}} \\Charla. Texas APS Section. Lubbock, TX. 2019
+
+
+
+\item \textit{\href{http://manuelpm.me/papers/MUSEP\'oster.pdf}{"Observaciones de la unidad de campo integral MUSE de los objetos compactos en el c\'umulo globular NGC 6397"}} \\P\'oster. Stellar Remnants at the Junction. Junction, TX. 2016
+
+
+%\item \textit{\href{http://manuelpm.me/papers/P\'osterhao.pdf}{"Big Flare Hunting"}} \\P\'oster. Summer Program in Solar and Space Physics. Boulder, CO. 2013
+
+
+\item \textit{\href{http://manuelpm.me/papers/P\'osterinsar.pdf}{"Medici\'on de las fluctuaciones del nivel del agua de dos humedales conectados en la Rep\'ublica Dominicana utilizando InSAR"}} \\P\'oster. SHPE National Conference. Dallas, TX. 2012
+
+\item \emph{"Medici\'on de las fluctuaciones del nivel del agua de dos humedales conectados en la Rep\'ublica Dominicana utilizando InSAR"}\\
+Charla. Coloquio Departamento de Física de la Universidad Estatal de Utah. 2012
+\end{itemize}
+\begin{comment}
+\subsection*{Media Coverage}
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+\item \hyperref[https://phys.org/news/2017-03-planetary-earth-sun.html]{Planetary waves, first found on Earth, are discovered on Sun (phys.org)}
+
+\end{itemize}
+\end{comment}
+\section*{Propuestas de Investigaci\'on}       
+
+\hrule
+\vspace{.3 cm}
+
+%\subsection*{CoI}
+
+\begin{itemize}[label=$\blacktriangleright$]
+      \item   Sat\'elite de estudio de exoplanetas en tr\'ansito (TESS)(Transiting Exoplanet Survey Satellite (TESS)): \emph{COPAS: Objetos compactos y estudio de la f\'isica de la acreci\'on ("COPAS: Compact Objects And The Physics Of Accretion Survey")} Programa Grande. (Co-Investigador)
+  \end{itemize}
+
+\begin{itemize}[label=$\blacktriangleright$]
+      \item   El Observatorio G\'eminis:  Cycle 2023B (16 hrs). (Co-Investigador)
+  \end{itemize}
+
+
+
+
+  \begin{itemize}[label=$\blacktriangleright$]
+      \item Telescopio espacial Hubble (HST):  Propuesta de para investigaci\'on de datos archivos. \emph{Una b\'usqueda de estrellas variables y binarias compactas en c\'umulos globulares con el telescopio espacial Hubble.} (Co-Investigador)
+  \end{itemize}
+  
+  
+
+\begin{itemize}[label=$\blacktriangleright$]
+      \item   Sat\'elite de estudio de exoplanetas en tr\'ansito (TESS)(Transiting Exoplanet Survey Satellite (TESS)): \emph{"Estudiando los estallidos de AM~CVns con TESS (Studying the outbursts of AM~CVns with TESS)"} (Co-Investigador)
+  \end{itemize}
+
+
+  \begin{itemize}[label=$\blacktriangleright$]
+        \item  Unidad de Campo Integral MUSE: \emph{La emisi\'on de hidr\'ogeno alfa de las binarias compactas del c\'umulo globular NGC 6397(The Hydrogen Alpha Disk Emission from the Compact Binaries of the Globular Cluster NGC 6397)} (Co-Investigador 1.5 h)
+  \end{itemize}
+
+
+\section*{Experiencia en Ense\~{n}anza y Mentor\'ia}
+
+\hrule
+\vspace{.3 cm}
+\subsection*{Ense\~{n}anza}
+
+%\hangindent=0.4cm  
+\begin{itemize}[label=$\blacktriangleright$]
+\item   Instructor graduado a tiempo parcial PHYS 1403/1404: Instructor de F\'isica introductoria basada en \'algebra. Universidad Tecnol\'ogica de Texas, 2017.
+ 
+ \item   Ayudante de Docencia PHYS 1401/2401: Principios de F\'isica I/II. Monitor de los laboratorios  para la introducci\'on a la f\'isica basada en el c\'alculo. Universidad Tecnol\'ogica de Texas, 2016-2017.
+
+ \item Becario docente de pregrado PHYS 2215: Laboratorio I de f\'isica para cient\'ificos e ingenieros - Universidad Estatal de Utah. 2013.
+ 
+ 
+ 
+  \end{itemize}
+  
+  \subsection*{Mentor\'ia}
+
+  
+  \begin{itemize}[label=$\blacktriangleright$]
+  
+  \item Mentor del programa \emph{de tutor\'ia en investigaci\'on cient\'ifica} en el Museo Americano de Historia Natural. Mentor de 3 estudiantes de secundaria realizando investigaciones sobre aprendizaje autom\'atico en astronom\'ia. Septiembre 2022 - Junio 2023
+
+          \item Mentor for \emph{Alpha-Cen: Asociaci\'on de Astrof\'isica en Centroam\'erica y el Caribe}. 2023.
+
+   \item Mentor for \emph{El programa Centroam\'erica-Caribe en astrof\'isica (CENCA)}. CENCA es una experiencia de investigaci\'on remota para estudiantes universitarios. Primavera de 2021, oto\~{n}o de 2022/23
+\end{itemize}
+  
+  \begin{comment}
+  
+\begin{itemize}[label=$\blacktriangleright$]
+
+	\item \emph{Graduate Part-Time Instructor} PHYS 1403/1404: Algebra-based, Inquiry-based, Laboratory-based Introductory Physics Curriculum. TTU, 2017-Present.  
+	
+	
+
+	
+\item \emph{Teaching Assistant.}  PHYS 1401/2401: Principles of Physics I/II. Lead the laboratories and discussions for the calculus based introductory physics. TTU, 2016-2017.  
+  	  
+
+  \item \emph{Undergraduate Teaching Fellow.}  PHYS 2215: Physics for Scientists and Engineers Lab I -  Utah State, Fall 2013.
+  
+  
+  
+  
+ 
+  
+  
+  \end{itemize}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+% \section*{Computer \& Language Skills}      
+% \emph{Languages}: Spanish (Native), English (Fluent), French (Intermediate)  \\
+% \emph{Computer Languages}: Fortran, \LaTeX\\
+% \emph{Software:}: Mathematica, MathCAD, Matlab
+
+
+
+\end{comment}
+
+
+
+\section*{Reconocimientos y Experiencias de Liderazgo}       
+
+\hrule
+\vspace{.3 cm}
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+
+\item Estudiante de Doctorado Sobresaliente: \emph{Departamento de F\'isica y Astronom\'ia de la Universidad Tecnol\'ogica de Texas}. 2022
+
+
+\item Beca de viaje FAMOUS: Beca para asistir a la 240 Reuni\'on de la Sociedad Astron\'omica Estadounidense. 
+
+\item Co-organizador \href{https://comscicon.com/comscicon-en-espanol-2021}{Primera ComSciCon en Espa\~nol}. El taller de comunicaci\'on de la ciencia para estudiantes de posgrado.2021.
+
+
+
+
+\item Beca Bucy : \emph{Departamento de F\'isica y Astronom\'ia de la Universidad Tecnol\'ogica de Texas. 2020-2021} %\\  % Need to check this     
+
+
+
+%\end{itemize}
+
+%\begin{itemize}[label=$\blacktriangleright$]
+
+  \item Beca Erasmus Mundus: Beca de 2 a\~{n}os otorgada por la Comisi\'on Europea para realizar una maestr\'ia. % \\
+  
+\item Beca del Ministerio de Educaci\'on Superior, Ciencia y Tecnolog\'ia de la Rep\'ublica Dominicana para la licenciatura en la Universidad Del Estado de Utah.
+
+  
+%\end{itemize}
+
+%\begin{itemize}[label=$\blacktriangleright$]
+
+\item  Member: \emph{Sigma Pi Sigma}, La Sociedad de Honor de F\'isica % \\   
+%\hspace{.2 cm}   $\blacktriangleright$  Vice-President: \emph{Society of Hispanic Professional Engineers.} 2011-2012\\
+%\hspace{.2 cm}   $\blacktriangleright$  Outreach Coordinator: \emph{Society of Hispanic Professional Engineers.} 2012-2013 \\  
+%\end{itemize}
+
+%\begin{itemize}[label=$\blacktriangleright$]
+
+\item Beca Lawrence  R. and Abeline Megill: \emph{Departamento de F\'isica de la Universidad del Estado de Utah.}   % Need to check this     
+  \end{itemize}
+
+
+
+
+\begin{comment}
+
+\hangindent=0.4cm  
+
+$\blacktriangleright$ Bucy Scholarship in Applied Physics: \emph{TTU Physics \& Astronomy Department. Fall 2020} \\  % Need to check this     
+  $\blacktriangleright$  Erasmus Mundus Scholarship: 2-year scholarship awarded by the European Commission  \\    
+ \hspace{.2 cm}    $\blacktriangleright$  Presidential Scholarship: Full 4-year scholarship awarded by the Dominican Government \\    
+\hspace{.2 cm}   $\blacktriangleright$  Member: \emph{Sigma Pi Sigma}, The Physics Honor Society  \\   
+%\hspace{.2 cm}   $\blacktriangleright$  Vice-President: \emph{Society of Hispanic Professional Engineers.} 2011-2012\\
+%\hspace{.2 cm}   $\blacktriangleright$  Outreach Coordinator: \emph{Society of Hispanic Professional Engineers.} 2012-2013 \\  
+\hspace{.2 cm}   $\blacktriangleright$   Lawrence  R. and Abeline Megill Scholarship: \emph{USU Physics Department}   % Need to check this     
+\end{comment}
+
+
+
+%\section*{Computer Programming}
+\section*{Habilidades T\'ecnicas}
+\hrule
+\vspace{.3 cm}
+    \begin{multicols}{2}
+
+
+%\begin{itemize}[label=$\blacktriangleright$]
+	%\item GitHub projects and contributions: %\href{https://github.com/manuelmarcano22}{https://github.com/manuelmarcano22}.
+  %\end{itemize}
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+	\item \emph{Lenguajes de programaci\'on}: Python, bash y R. 
+\end{itemize}
+
+
+
+  \begin{itemize}[label=$\blacktriangleright$]
+  \item \emph{Sistemas operativos}: GNU/Linux, OS X, Windows
+    \end{itemize}
+
+  \begin{itemize}[label=$\blacktriangleright$]
+          \item \emph{Programas Inform\'aticos}: IRAF/PyRAF, DOLPHOT, SAOImageDS9/JS9
+    \end{itemize}
+
+  \begin{itemize}[label=$\blacktriangleright$]
+          \item \emph{Sistemas de control de versiones}: Git
+    \end{itemize}
+  
+
+    
+ %   \begin{itemize}[label=$\blacktriangleright$]
+ %           \item \emph{Networking Tools/Services}: SSH (basic)
+%    \end{itemize}
+    
+        \end{multicols}
+
+%\hrule
+%\vspace{.3 cm}
+%\begin{itemize}[label=$\blacktriangleright$]
+%\item Extensive knowledge of \emph{Python}  and \emph{Mathematica} 
+%\item Complete familiarity with \LaTeX
+%\item Familiarity with Matlab and Fortran %, and basic knowledge of R
+%\end{itemize}
+
+\subsection*{Idiomas}
+
+%\hrule
+%\vspace{.3 cm}
+
+    \begin{multicols}{2}
+
+
+\begin{itemize}[label=$\blacktriangleright$]
+\item \emph{Espa\~{n}ol}: Lengua materna
+\item \emph{Ingl\'es}: Nivel Avanzado
+\item \emph{Franc\'es}: Nivel Intermedio (B1)
+\end{itemize}
+
+\end{multicols}
+
+
+\section*{Desarrollo profesional}
+\subsection*{Talleres}
+\begin{itemize}[label=$\blacktriangleright$]
+
+\item \textbf{Taller de la Alianza Nacional de Ciencia de Datos.}: An\'alisis de datos exploratorios (EDA) \& Visualizaci\'on de datos. marzo, 2024
+
+
+
+
+\item \textbf{Taller de la Alianza Nacional de Ciencia de Datos}: Navegando por el panorama de la ciencia de datos: ¿qu\'e, por qu\'e y c\'omo? Enero, 2024
+
+
+\item \textbf{Escuela de Verano EMIT en Astronom\'ia Multimensajero}: Conferencias y tutoriales en ondas gravitacionales, estad\'istica, astronom\'ia multimensajero y temas de diversidad e inclusi\'on. Verano, 2023
+
+\item \textbf{Escuela de verano de Penn State en estadí\'istica para astr\'onomos}: Conferencias y tutoriales en estad\'istica, astronom\'ia e inform\'atica. Verano, 2021
+
+\item \textbf{SciPy 2021:} Conferencia sobre Computaci\'on Cient\'ifica con Python. Verano, 2021
+    \item  \textbf{Curso de Wikipedia cient\'ifico}: Elevando la visibilidad de los cient\'ificos de f\'isica cu\'antica en Wikipedia por parte de la Sociedad Estadounidense de F\'isica y Wiki Education. \href{https://wikiedu.org/blog/2021/05/24/improving-the-quality-of-spanish-language-articles-on-wikipedia/}{Publicaci\'on de blog: Mejorar la calidad de los art\'iculos en espa\~{n}ol en Wikipedia (Improving the quality of Spanish language articles on Wikipedia)}
+    \item \textbf{ComSciCon:} El taller de comunicaci\'on de la ciencia para estudiantes de posgrado. Junio, 2020..
+    %\item \textbf{SCOPE:} Science Communication Online Programme. Fall, 2020.
+   % \item \textbf{Reclaiming STEM:} Diverse \& inclusive SciComm workshop. Fall, 2020.
+    
+
+
+            \item \textbf{Taller de preparaci\'on de propuestas del JWST:} Descripci\'on de instrumentos, herramientas de planificaci\'on y sesiones pr\'acticas. Primavera de 2020.
+
+    
+    
+    
+        \item \textbf{Taller del Observatorio Nacional de Radioastronom\'ia:}  Evento de dos d\'ias, que incluye sesiones pr\'acticas y preparaci\'on de observaci\'ones y reducci\'on de datos. Primavera de 2019.
+
+\end{itemize}
+
+
+\section*{Divulgaci\'on Cient\'ifica}
+\hrule
+\vspace{.3 cm}
+\begin{itemize}[label=$\blacktriangleright$]
+
+\item \emph{Author en \href{https://astrobitos.org/}{Astrobitos}}: Uno de los autores originales. \\ Astrobitos es la versi\'on en espa\~{n}ol de Astrobites.\\ URL: \url{https://astrobitos.org/author/manuelmarcano22/}
+
+
+\subsection*{Charlas}
+
+
+\item \textit{Binarias de Enanas Blancas.} \\
+Charla. "Colegio Nuestra Se\~{n}ora De La Concepci\'on". \\
+Colombia. March 2024.
+
+
+\item \textit{Astronom\'ia Estelar} \\
+Charla. "Mes de la Astronom\'ia en la Rep\'ublica Dominicana". \\Universidad Aut\'onoma de Santo Domingo. Verano 2023.
+
+
+\item \textit{Binarias de Enanas Blancas: Sirenas de Ondas Gravitacionales y Laboratorios Estelares}. \\
+Charla. Asociaci\'on Estadounidense de Observadores de Estrellas Variables. 2022.
+
+
+
+
+\item \textit{Caminando en la Luna}. \\
+Charla. Planetario de San Jos\'e Universidad de Costa Rica (UCR). 2021.
+
+
+\end{itemize}
+
+
+
+\subsection*{El Museo Americano de Historia Natural}
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+	\item \textit{Parte del equipo traduciendo al espa\~{n}ol el curso "Aprendizaje Autom\'atico para F\'isica y Astronom\'ia"}. \\
+\url{https://openlearning.flatironinstitute.org/courses/course-v1:cca+ML_01+A/about}
+
+\end{itemize}
+
+
+
+
+
+\subsection*{Universidad Tecnol\'ogica de Texas}
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+	\item \textit{Una aguja en un pajar: encontrando binarias ex\'oticas en c\'umulos de estrellas}. \\
+Astronight. YWCA Lubbock. 2022. \\
+\url{https://slides.com/mmarcano22/ywca2022}
+
+
+%\item Solar Observation at TexPREP-Lubbock (http://www.math.ttu.edu/texprep/) 
+
+	\item \textit{Presentaci\'on del banner del 30.º aniversario del Hubble}. \\
+Astronight. YWCA Lubbock. 2022. \\
+\url{https://hubblesite.org/hubble-30th-anniversary/events}
+
+
+
+	%\item \textit{"Hubble's 30th Anniversary/30 aniversario del telescopio Hubble"} \\ Won a competition to host one of the anniversary banners. \\ Bilingual talk (Spanish/English) for Astronight event at TTU, Lubbock, TX. 2020
+	
+
+
+
+%\item Solar Observation at TexPREP-Lubbock (http://www.math.ttu.edu/texprep/) 
+	\item \textit{\href{https://slides.com/mmarcano22/a-tour-of-the-milky-way-2\#/}{"Un Tour por la V\'ia Lactea"}} \\ Charla para la noche de astronom\'ia. TTU, Lubbock, TX. 2019
+
+
+	\item \textit{\href{http://manuelpm.me/PCASDSS/}{"Reducci\'on de dimensionalidad aplicada a grandes estudios espectrosc\'opicos"}} \\ Escuela Secundaria Emmy Noether. D\'ia de las Matem\'aticas, Lubbock, TX. 2018
+
+
+
+%\item Science Made Simple at the TTU museum. 
+
+%\item +10 Solar Observation and school visits to do science demos and judge science fair projects in Lubbock
+\end{itemize}
+
+
+\subsection*{Sociedad Astron\'omica Dominicana (Astrodom)}
+
+\begin{itemize}[label=$\blacktriangleright$]
+
+
+    \item \textit{\href{https://manuelpm.me/AstrodomJulio2020/}{"Una aguja en un pajar: Buscando remanentes estelares en c\'umulos globulares"}} \\ Santo Domingo, Rep. Dom. 2020
+
+
+	\item \textit{\href{http://manuelpm.me/AstrodomGBStalk/}{"Galactic Bulge Survey: Fuentes de Rayos X del Bulbo Galactico"}} \\ Santo Domingo, Rep. Dom. 2018
+
+
+
+	\item \textit{\href{http://manuelpm.me/Astrodomtalk/}{"Estudio de la poblaci\'on de objetos compactos en el c\'umulo globular NGC 6397 con la unidad de campo integral MUSE"}} \\Santo Domingo, Rep. Dom. 2016
+
+\end{itemize}
+
+
+
+%\section*{Awards \& Grants}
+%\begin{itemize}
+  %\item Rolf Winter Physics Teaching Assistant Award, 2007, 2008, 2009, 2010. 
+  %\item VSGC Graduate Research Fellowship, 2009-2010.
+  %\item Token travel grant from W\&M's grad dean. 
+%\end{itemize}
+
+
+
+%\section*{Professional Service}
+%\begin{itemize}
+% \item \textbf{Graduate Representative}, Physics Graduate Studies Committee, W\&M, 2009-2010.
+% \item \textbf{President}, Physics Graduate Student Association, W\&M, 2002-2003.
+%\end{itemize}
+%
+%\section*{Professional Development}
+%\begin{itemize}
+% \item \textbf{Generic Physics Summer School}, Fermilab, Summer 2002.
+%\end{itemize}
+%
+
+
+
+\pagebreak
+
+
+\section*{Referencias }  
+
+
+   \begin{tabbing}
+ \emph{Dr. Thomas Maccarone}\\
+Associate Professor\\
+Texas Tech University \\
+Department of Physics and Astronomy \\
+Lubbock TX 79409-1051 \\
+PHONE:  1-806-742-3760 \,\,\,\,\,\,\,\,\, eMAIL: 
+thomas.maccarone@ttu.edu
+\end{tabbing}
+
+
+
+
+   \begin{tabbing}
+ \emph{Dr. Liliana Rivera Sandoval}\\
+Assistant Professor \\
+The University of Texas Rio Grande Valley \\
+Department of Physics and Astronomy \\
+BINAB 2.102 One West University Blvd. \\
+Brownsville 78520 \\
+PHONE:  +1 9568825131 \,\,\,\,\,\,\,\,\, eMAIL: 
+liliana.riverasandoval@utrgv.edu
+\end{tabbing}
+
+   \begin{tabbing}
+ \emph{Dr. Craig Heinke}\\
+Professor \\
+University of Alberta \\
+Department of Physics \\
+ CCIS 4-183 \\
+ Edmonton, AB, T6G 2E1, Canada\\
+PHONE:  (780) 222-4815\,\,\,\,\,\,\,\,\, eMAIL: 
+ heinke@ualberta.ca
+\end{tabbing}
+
+
+
+
+
+
+
+\begin{comment}
+
+   \begin{tabbing}
+ \emph{Dr. Craig Heinke}\\
+Professor \\
+University of Alberta \\
+Department of Physics \\
+ CCIS 4-183 \\
+ Edmonton, AB, T6G 2E1, Canada\\
+PHONE:  (780) 222-4815\,\,\,\,\,\,\,\,\, eMAIL: 
+ heinke@ualberta.ca
+\end{tabbing}
+
+
+   \begin{tabbing}
+ \emph{Dr. David Zurek}\\
+Data Collections Manager Physical Sciences, Astrophysics \\
+American Museum of Natural History \\
+New York, NY\\ 
+PHONE:  212-313-7318  \,\,\,\,\,\,\,\,\, eMAIL: dzurek@amnh.org
+\end{tabbing}
+
+
+
+
+   \begin{tabbing}
+ \emph{Dr. Beth Thacker}\\
+Associate Professor \\
+Texas Tech University \\
+Department of Physics and Astronomy \\
+Lubbock TX 79409-1051 \\
+PHONE:  (806) 834-2996  \,\,\,\,\,\,\,\,\, eMAIL: 
+Beth.Thacker@ttu.edu
+\end{tabbing}
+
+
+\end{comment}
+
+
+
+
+\begin{comment}
+
+\section*{References }  
+
+
+   \begin{tabbing}
+ \emph{Dr. Thomas Maccarone}\\
+Associate Professor\\
+Texas Tech University \\
+Department of Physics and Astronomy \\
+Lubbock TX 79409-1051 \\
+PHONE:  1-806-742-3760 \,\,\,\,\,\,\,\,\, eMAIL: 
+thomas.maccarone@ttu.edu
+\end{tabbing}
+
+
+
+
+   \begin{tabbing}
+ \emph{Dr. Natalie Webb}\\
+Researcher\\
+Institut de Recherche en Astrophysique et Planétologie \\
+9 Avenue de Colonel Roche \\
+31028 Toulouse Cedex 4, France\\ 
+PHONE:  (+33) 5 61 55 75 70  \,\,\,\,\,\,\,\,\, eMAIL: Natalie.Webb@irap.omp.eu
+\end{tabbing}
+
+
+\begin{tabbing}
+ \emph{Dr. Martin Hendry}\\
+Head of School\\
+Professor of Gravitational Astrophysics and Cosmology \\
+SUPA, School of Physics and Astronomy \\
+University of Glasgow  \\
+Glasgow, G12 9RW \\ 
+PHONE:  (+44) 141 330 5685   \,\,\,\,\,\,\,\,\, eMAIL: Martin.Hendry@glasgow.ac.uk
+\end{tabbing}
+
+
+   \begin{tabbing}
+ \emph{Dr. Shane Larson}\\
+Research Associate Professor \\
+Center for Interdisciplinary Exploration \\
+and Research in Astrophysics \\
+Northwestern University \\
+Evanston, IL 60208  \\ 
+PHONE:  (847) 467 4305   \,\,\,\,\,\,\,\,\, eMAIL: s.larson@northwestern.edu
+\end{tabbing}
+
+
+
+
+
+
+
+%\section{References }  
+%   \begin{tabbing}
+% \emph{Dr. Shane Larson}\\
+%Assistant Professor of Physics \\
+%Department of Physics \\
+%4415 Old Main Hill \\
+%Utah State University \\
+%Logan, UT 84322-4415  \\ 
+%PHONE:  435-797-8838  \,\,\,\,\,\,\,\,\, eMAIL: s.larson@usu.edu
+%\end{tabbing}
+
+  \begin{tabbing}
+ \emph{Dr. Scott W. McIntosh}\\
+National Center for Atmospheric Research\\
+High Altitude Observatory \\
+ 3080 Center Green Drive - CG1	 \\
+Boulder, CO 80301	  \\ 
+PHONE:  (303) 497 1544  \,\,\,\,\,\,\,\,\, eMAIL: mscott@ucar.edu
+\end{tabbing}
+
+
+
+  \begin{tabbing}
+ \emph{Dr. David Peak}\\
+ Professor of Physics \\
+Department of Physics \\
+4415 Old Main Hill \\
+Utah State University \\
+Logan, UT 84322-4415  \\ 
+PHONE:  (435) 797-2884  \,\,\,\,\,\,\,\,\, eMAIL: david.peak@usu.edu.
+\end{tabbing}
+
+
+
+
+
+
+%\bigskip
+% Footer
+%\begin{center}
+  %\begin{footnotesize}
+   % Last updated: \today \\
+%    \href{\footerlink}{\texttt{\footerlink}}
+%  \end{footnotesize}
+%\end{center}
+\end{comment}
+
+\end{document}
+
+
+
+
+
+\end{document}
+
